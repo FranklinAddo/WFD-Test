@@ -112,7 +112,7 @@ for song in album.songs:
     artist.add_song(song)
 
 # Create playlist
-playlist = Playlist("My Favourite Songs")
+playlist = Playlist("My Playlist")
 
 # Add songs from album to playlist
 for song in album.songs:
